@@ -13,7 +13,7 @@ LOGGING_IS_POSSIBLE_HERE = 7484; -- Logging is possible here if you have
 -- General Dialog
      RAYOCHINDOT_DIALOG = 7408; -- If you are outmatched, run to the city as quickly as you can.
      CROTEILLARD_DIALOG = 7409; -- Sorry, no chatting while I'm on duty.
-FIXME: FIXME:       BLESSED_WATERSKIN = 7452; -- To get water, radethe waterskin you hold with the river.
+     BLESSED_WATERSKIN = 7453; -- To get water, radethe waterskin you hold with the river.
      CHEVAL_RIVER_WATER = 7434; -- You fill your waterskin with water from the river. You now have
 NOTHING_OUT_OF_ORDINARY = 6422; -- There is nothing out of the ordinary here.
 

@@ -19,7 +19,7 @@ SANCTION = 9799; -- You have received the Empire's Sanction.
  ZASSHAL_DIALOG = 10993; -- 'ang about. Looks like the permit you got was the last one I 'ad, so it might take me a bit o' time to scrounge up some more. 'ere, don't gimme that look. I'll be restocked before you know it.
 MUSHAYRA_DIALOG = 4962; -- Sorry for all the trouble. Please ignore Hadahda the next time he asks you to do something.
  HADAHDA_DIALOG = 4913; -- Hey, think you could help me out?
-FIXME: FIXME:  PAY_DIVINATION = 8762; -- You pay 1000 gil for the divination.
+PAY_DIVINATION = 8765; -- You pay 1000 gil for the divination.
 
  -- Other Dialogs
 ITEM_DELIVERY_DIALOG = 9349; -- You have something you want delivered?
