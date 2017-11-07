@@ -1,0 +1,472 @@
+[Status] Memory manager initialised: log/DSP.leaks
+[Info] DarkStar - Git Revision Hash: c18c22b1af4911679a37d534140ef194a81d7177.
+[Status] do_init: begin server initialization...
+[06/Nov] [15:47:12][Info] Console Silent Setting: 0[06/Nov] [15:47:12][Warning] Unknown setting 'fame_multiplier' in file ./conf/map_darkstar.conf
+			 - [OK]
+[06/Nov] [15:47:12][Status] do_init: map_config is reading		 - [OK]
+[06/Nov] [15:47:12][Status] luautils::init:lua initializing...		 - [OK]
+[06/Nov] [15:47:12][Status] do_init: sqlhandle is allocating		 - [OK]
+[06/Nov] [15:47:12][Status] do_init: zlib is reading			 - [OK]
+[06/Nov] [15:47:12][Status] do_init: loading items			 - [OK]
+[06/Nov] [15:47:13][Status] do_init: loading spells			 - [OK]
+[06/Nov] [15:47:13][Debug] UpdateGuildPointsPattern is finished. New pattern: 5
+[06/Nov] [15:47:13][Status] do_init: loading zones[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326264. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543187. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543204. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543236. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17547397. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17535007. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17539144. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543197. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543217. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543295. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326232. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326346. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17535033. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17539089. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543193. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17543230. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326226. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326306. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17539309. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326359. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326407. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Error] zoneutils::loadMOBList PPet is NULL. petid: 17326438. Make sure x,y,z are not zeros!
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <16822527> not found in treasurespawnpoints table.
+[06/Nov] [15:47:20][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <16826623> not found in treasurespawnpoints table.
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <16892179> not found in treasurespawnpoints table.
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:20][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17363367> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17391845> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17424553> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17429003> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17433081> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] Where does this spell go? 292
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17469831> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17498621> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17498622> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17617220> not found in treasurespawnpoints table.
+[06/Nov] [15:47:21][Debug] zonetuils::UpdateTreasureSpawnPoint: SQL error or treasure <17629735> not found in treasurespawnpoints table.
+			 - [OK]
+[06/Nov] [15:47:21][Status] do_init: server is binding with port 54230	 - [OK]
+[06/Nov] [15:47:21][Debug] InitializeWeather Finished
+[06/Nov] [15:47:21][Status] The map-server is ready to work...
+=======================================================================
+[06/Nov] [15:47:21][Debug] [Lua] Garbage Collected. Current State Top: 0
+[06/Nov] [15:47:36][Debug] Player <Ranik> logging in to zone <105>
+[06/Nov] [15:47:36][Warning] Unequip Occured 
+[06/Nov] [15:47:36][Warning] Unequip Occured 
+[06/Nov] [15:47:36][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [15:47:36][Debug] CZone:: Batallia_Downs IncreaseZoneCounter <1> Ranik 
+[06/Nov] [15:47:36][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [15:47:37][Debug] Message: Received message 6 from message server
+[06/Nov] [15:47:38][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [15:47:38][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [15:47:38][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [15:47:38][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [15:47:38][Info] parse: 04B | 0003 0002 0C from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [15:47:38][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [15:47:38][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [15:47:38][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [15:59:05][LUA Script] 3
+[06/Nov] [15:59:05][Info] parse: 01A | 067F 067E 0E from user: Ranik
+[06/Nov] [15:59:05][Debug] CLIENT Ranik PERFORMING ACTION 02
+[06/Nov] [15:59:09][Info] parse: 01A | 0688 0687 0E from user: Ranik
+[06/Nov] [15:59:09][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:18][Info] parse: 01A | 069D 069C 0E from user: Ranik
+[06/Nov] [15:59:18][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:25][Info] parse: 01A | 06AE 06AD 0E from user: Ranik
+[06/Nov] [15:59:25][Debug] CLIENT Ranik PERFORMING ACTION 07
+[06/Nov] [15:59:26][Debug] Adding TP to WS[06/Nov] [15:59:28][Info] parse: 01A | 06B5 06B4 0E from user: Ranik
+[06/Nov] [15:59:28][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:37][Info] parse: 01A | 06CB 06CA 0E from user: Ranik
+[06/Nov] [15:59:37][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:43][Info] parse: 01A | 06D9 06D8 0E from user: Ranik
+[06/Nov] [15:59:43][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:50][Info] parse: 01A | 06E9 06E8 0E from user: Ranik
+[06/Nov] [15:59:50][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [15:59:59][Info] parse: 0DD | 0700 06FF 08 from user: Ranik
+[06/Nov] [16:00:05][Debug] DropID: 1444 dropping with TH Level: 0
+[06/Nov] [16:00:05][Info] parse: 03A | 0710 070F 04 from user: Ranik
+[06/Nov] [16:00:08][Info] parse: 01A | 0716 0715 0E from user: Ranik
+[06/Nov] [16:00:08][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:00:11][LUA Script] 78
+[06/Nov] [16:01:26][Info] parse: 01A | 07D2 07D1 0E from user: Ranik
+[06/Nov] [16:01:26][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:01:26][Info] parse: 016 | 07D3 07D2 04 from user: Ranik
+[06/Nov] [16:01:29][Info] parse: 05B | 07D9 07D8 0A from user: Ranik
+[06/Nov] [16:01:36][Info] parse: 05B | 07EC 07EB 0A from user: Ranik
+[06/Nov] [16:01:37][Info] parse: 00D | 07ED 07EC 04 from user: Ranik
+[06/Nov] [16:01:37][Debug] CZone:: Batallia_Downs DecreaseZoneCounter <0> Ranik
+[06/Nov] [16:01:39][Warning] Unequip Occured 
+[06/Nov] [16:01:39][Warning] Unequip Occured 
+[06/Nov] [16:01:39][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [16:01:39][Debug] CZone:: Batallia_Downs_[S] IncreaseZoneCounter <1> Ranik 
+[06/Nov] [16:01:40][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:01:40][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:01:40][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:01:40][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-579.065002, -30.593128, -102.952415) (84) 
+[06/Nov] [16:01:40][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:01:41][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [16:01:41][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [16:01:41][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [16:01:41][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [16:01:41][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:01:41][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [16:01:41][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [16:02:21][Debug] [Lua] Garbage Collected. Current State Top: 0
+[06/Nov] [16:02:24][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:02:25][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:02:25][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-579.513306, -30.965496, -104.202728) (84) 
+[06/Nov] [16:02:40][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:03:10][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:03:10][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:03:10][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-580.095337, -30.518583, -102.840752) (84) 
+[06/Nov] [16:03:39][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:03:54][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:03:55][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:03:55][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-580.183289, -30.093460, -100.800865) (84) 
+[06/Nov] [16:04:06][Info] parse: 01A | 015E 015D 0E from user: Ranik
+[06/Nov] [16:04:06][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:04:13][Info] parse: 01A | 016E 016D 0E from user: Ranik
+[06/Nov] [16:04:13][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:04:40][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:04:40][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:04:40][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:04:40][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-580.728821, -30.743904, -103.831612) (84) 
+[06/Nov] [16:05:14][Info] parse: 114 | 0201 0200 02 from user: Ranik
+[06/Nov] [16:05:14][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:05:24][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:05:25][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:05:25][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-580.834595, -30.556660, -103.204582) (84) 
+[06/Nov] [16:05:39][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:06:01][Info] parse: 0F1 | 0274 0273 04 from user: Ranik
+[06/Nov] [16:06:04][Info] parse: 0F1 | 027B 027A 04 from user: Ranik
+[06/Nov] [16:06:06][Info] parse: 01A | 0281 0280 0E from user: Ranik
+[06/Nov] [16:06:06][Error] luautils::onTrigger: cannot open scripts/zones/Batallia_Downs_[S]/npcs/_2c4.lua: No such file or directory
+[06/Nov] [16:06:06][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:06:10][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:06:10][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:06:10][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-580.138733, -30.314121, -101.859940) (84) 
+[06/Nov] [16:06:10][Info] parse: 01A | 028A 0289 0E from user: Ranik
+[06/Nov] [16:06:10][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:06:17][Info] parse: 01A | 029B 029A 0E from user: Ranik
+[06/Nov] [16:06:17][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:06:26][Info] parse: 114 | 02B0 02AF 02 from user: Ranik
+[06/Nov] [16:06:26][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:06:40][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:06:55][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:06:55][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:06:55][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-579.368713, -30.305187, -101.629959) (84) 
+[06/Nov] [16:07:40][Error] CNavMesh::findRandomPath startRef is invalid (-171.011002, -2.898000, 3998.142090) (84)
+[06/Nov] [16:07:40][Error] CNavMesh::findRandomPath startRef is invalid (455.069000, -28.631001, 377.855988) (84)
+[06/Nov] [16:07:40][Error] CNavMesh::findRandomPath startRef is invalid (-472.190002, -370.589996, 350.742004) (84)
+[06/Nov] [16:07:40][Error] CNavMesh::findPath Couldn't find path (-564.153015, -16.497000, -120.130997)->(-579.405579, -30.554100, -102.845749) (84) 
+[06/Nov] [16:08:02][Info] parse: 0F1 | 0397 0396 04 from user: Ranik
+[06/Nov] [16:08:03][Info] parse: 0F1 | 039A 0399 04 from user: Ranik
+[06/Nov] [16:08:05][Info] parse: 01A | 039F 039E 0E from user: Ranik
+[06/Nov] [16:08:05][Error] luautils::onTrigger: cannot open scripts/zones/Batallia_Downs_[S]/npcs/_2cb.lua: No such file or directory
+[06/Nov] [16:08:05][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:08:09][Info] parse: 05E | 03A9 03A8 0C from user: Ranik
+[06/Nov] [16:08:09][Info] Zoning from zone 84 to zone 175: Ranik
+[06/Nov] [16:08:09][Info] parse: 00D | 03AA 03A9 04 from user: Ranik
+[06/Nov] [16:08:09][Debug] CZone:: Batallia_Downs_[S] DecreaseZoneCounter <0> Ranik
+[06/Nov] [16:08:12][Warning] Unequip Occured 
+[06/Nov] [16:08:12][Warning] Unequip Occured 
+[06/Nov] [16:08:12][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [16:08:12][Debug] CZone:: The_Eldieme_Necropolis_[S] IncreaseZoneCounter <1> Ranik 
+[06/Nov] [16:08:12][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:08:14][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [16:08:14][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [16:08:14][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [16:08:14][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [16:08:14][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:08:14][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [16:08:14][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [16:08:23][Info] parse: 01A | 0017 0016 0E from user: Ranik
+[06/Nov] [16:08:23][Debug] CLIENT Ranik PERFORMING ACTION 03
+[06/Nov] [16:08:49][Info] parse: 01A | 0057 0056 0E from user: Ranik
+[06/Nov] [16:08:49][Error] luautils::onTrigger: scripts/zones/The_Eldieme_Necropolis_[S]/npcs/Erlene.lua:182: attempt to compare number with nil
+[06/Nov] [16:08:49][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:08:50][Info] parse: 016 | 0058 0057 04 from user: Ranik
+[06/Nov] [16:08:50][Info] parse: 016 | 0059 0058 04 from user: Ranik
+[06/Nov] [16:08:51][Info] parse: 016 | 005A 0059 04 from user: Ranik
+[06/Nov] [16:08:51][Info] parse: 016 | 005B 005A 04 from user: Ranik
+[06/Nov] [16:08:51][Info] parse: 016 | 005C 005B 04 from user: Ranik
+[06/Nov] [16:08:51][Info] parse: 016 | 005D 005C 04 from user: Ranik
+[06/Nov] [16:08:52][Info] parse: 016 | 005E 005D 04 from user: Ranik
+[06/Nov] [16:08:52][Info] parse: 016 | 005F 005E 04 from user: Ranik
+[06/Nov] [16:08:52][Info] parse: 016 | 0060 005F 04 from user: Ranik
+[06/Nov] [16:08:52][Info] parse: 016 | 0061 0060 04 from user: Ranik
+[06/Nov] [16:08:53][Info] parse: 016 | 0062 0061 04 from user: Ranik
+[06/Nov] [16:08:53][Info] parse: 016 | 0063 0062 04 from user: Ranik
+[06/Nov] [16:13:42][Info] parse: 05B | 031A 0319 0A from user: Ranik
+[06/Nov] [16:13:47][Info] parse: 016 | 0326 0325 04 from user: Ranik
+[06/Nov] [16:13:51][Info] parse: 01A | 0330 032F 0E from user: Ranik
+[06/Nov] [16:13:51][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:14:17][Info] parse: 084 | 0371 0370 06 from user: Ranik
+[06/Nov] [16:14:19][Info] parse: 084 | 0375 0374 06 from user: Ranik
+[06/Nov] [16:14:19][Info] parse: 085 | 0375 0374 04 from user: Ranik
+[06/Nov] [16:14:19][Warning] Player tried to sell back to an NPC!! 
+Player: Ranik 
+Item ID: 16656 
+Quantity ID: 1 
+[06/Nov] [16:14:19][Info] parse: 03A | 0376 0375 04 from user: Ranik
+[06/Nov] [16:14:58][Info] parse: 01A | 03D5 03D4 0E from user: Ranik
+[06/Nov] [16:14:58][Error] luautils::onTrigger: cannot open scripts/zones/The_Eldieme_Necropolis_[S]/npcs/Theodor.lua: No such file or directory
+[06/Nov] [16:14:58][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:15:04][Info] parse: 0DD | 03E2 03E1 08 from user: Ranik
+[06/Nov] [16:15:15][Info] parse: 114 | 03FC 03FB 02 from user: Ranik
+[06/Nov] [16:15:15][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:15:25][Info] parse: 114 | 0413 0412 02 from user: Ranik
+[06/Nov] [16:15:25][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:15:35][Info] parse: 01A | 042D 042C 0E from user: Ranik
+[06/Nov] [16:15:35][Error] luautils::onTrigger: cannot open scripts/zones/The_Eldieme_Necropolis_[S]/npcs/RedAxe.lua: No such file or directory
+[06/Nov] [16:15:35][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:15:50][Info] parse: 01A | 0450 044F 0E from user: Ranik
+[06/Nov] [16:15:50][Error] luautils::onTrigger: cannot open scripts/zones/The_Eldieme_Necropolis_[S]/npcs/Heptachiond.lua: No such file or directory
+[06/Nov] [16:15:50][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:16:13][Info] parse: 114 | 0488 0487 02 from user: Ranik
+[06/Nov] [16:16:13][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:16:36][Info] parse: 01A | 04BF 04BE 0E from user: Ranik
+[06/Nov] [16:16:36][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:16:36][Info] parse: 04D | 04C0 04BF 10 from user: Ranik
+[06/Nov] [16:16:36][Debug] DeliveryBox Action (01)
+[06/Nov] [16:16:36][Debug]  4d 10 c0 04 01 02 ff ff ff ff ff ff 00 00 00 00
+[06/Nov] [16:16:36][Debug]  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[06/Nov] [16:16:37][Info] parse: 04D | 04C0 04BF 10 from user: Ranik
+[06/Nov] [16:16:37][Debug] DeliveryBox Action (05)
+[06/Nov] [16:16:37][Debug]  4d 10 c0 04 05 02 ff ff ff ff ff ff 00 00 00 00
+[06/Nov] [16:16:37][Debug]  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[06/Nov] [16:16:37][Info] parse: 04D | 04C1 04C0 10 from user: Ranik
+[06/Nov] [16:16:37][Debug] DeliveryBox Action (01)
+[06/Nov] [16:16:37][Debug]  4d 10 c1 04 01 02 ff ff ff ff ff ff 00 00 00 00
+[06/Nov] [16:16:37][Debug]  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[06/Nov] [16:16:39][Info] parse: 04D | 04C6 04C5 10 from user: Ranik
+[06/Nov] [16:16:39][Debug] DeliveryBox Action (0f)
+[06/Nov] [16:16:39][Debug]  4d 10 c6 04 0f ff ff ff ff ff ff ff 00 00 00 00
+[06/Nov] [16:16:39][Debug]  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[06/Nov] [16:16:55][Info] parse: 01A | 04EE 04ED 0E from user: Ranik
+[06/Nov] [16:16:55][Error] luautils::onTrigger: scripts/zones/The_Eldieme_Necropolis_[S]/npcs/Erlene.lua:182: attempt to compare number with nil
+[06/Nov] [16:16:55][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:17:00][Info] parse: 05B | 04F9 04F8 0A from user: Ranik
+[06/Nov] [16:17:01][Info] parse: 01A | 04FC 04FB 0E from user: Ranik
+[06/Nov] [16:17:01][Error] luautils::onTrigger: cannot open scripts/zones/The_Eldieme_Necropolis_[S]/npcs/RenvricheTK.lua: No such file or directory
+[06/Nov] [16:17:01][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:17:05][Info] parse: 016 | 0505 0504 04 from user: Ranik
+[06/Nov] [16:17:21][Debug] [Lua] Garbage Collected. Current State Top: 0
+[06/Nov] [16:17:35][Info] parse: 0B5 | 054D 054C 0A from user: Ranik
+[06/Nov] [16:17:35][Info] parse: 00D | 054E 054D 04 from user: Ranik
+[06/Nov] [16:17:35][Debug] CZone:: The_Eldieme_Necropolis_[S] DecreaseZoneCounter <0> Ranik
+[06/Nov] [16:17:39][Warning] Unequip Occured 
+[06/Nov] [16:17:39][Warning] Unequip Occured 
+[06/Nov] [16:17:39][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [16:17:39][Debug] CZone:: Northern_San_dOria IncreaseZoneCounter <1> Ranik 
+[06/Nov] [16:17:39][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:17:40][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [16:17:40][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [16:17:40][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [16:17:40][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [16:17:40][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:17:40][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [16:17:40][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [16:18:25][Info] parse: 01A | 006E 006D 0E from user: Ranik
+[06/Nov] [16:18:25][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:18:26][Info] parse: 016 | 006F 006E 04 from user: Ranik
+[06/Nov] [16:18:26][Info] parse: 05B | 0070 006F 0A from user: Ranik
+[06/Nov] [16:18:37][Info] parse: 114 | 0089 0088 02 from user: Ranik
+[06/Nov] [16:18:37][Debug] parse: SmallPacket is not implemented Type<114>
+[06/Nov] [16:18:40][Info] parse: 05B | 0091 0090 0A from user: Ranik
+[06/Nov] [16:18:45][Info] parse: 05B | 009C 009B 0A from user: Ranik
+[06/Nov] [16:18:45][Info] parse: 00D | 009D 009C 04 from user: Ranik
+[06/Nov] [16:18:45][Debug] CZone:: Northern_San_dOria DecreaseZoneCounter <0> Ranik
+[06/Nov] [16:18:48][Warning] Unequip Occured 
+[06/Nov] [16:18:48][Warning] Unequip Occured 
+[06/Nov] [16:18:48][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [16:18:48][Debug] CZone:: Lower_Jeuno IncreaseZoneCounter <1> Ranik 
+[06/Nov] [16:18:48][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:18:50][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [16:18:50][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [16:18:50][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [16:18:50][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:18:50][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [16:18:50][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [16:18:50][Info] parse: 0F2 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:18:57][Info] parse: 01A | 0012 0011 0E from user: Ranik
+[06/Nov] [16:18:57][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:18:58][Info] parse: 016 | 0013 0012 04 from user: Ranik
+[06/Nov] [16:19:06][Info] parse: 05B | 0029 0028 0A from user: Ranik
+[06/Nov] [16:19:08][Info] parse: 01A | 002C 002B 0E from user: Ranik
+[06/Nov] [16:19:08][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:19:15][Info] parse: 05B | 003E 003D 0A from user: Ranik
+[06/Nov] [16:19:18][Info] parse: 05B | 0044 0043 0A from user: Ranik
+[06/Nov] [16:19:18][Info] parse: 03A | 0045 0044 04 from user: Ranik
+[06/Nov] [16:19:22][Info] parse: 01A | 0050 004F 0E from user: Ranik
+[06/Nov] [16:19:22][Error] luautils::onTrigger: cannot open scripts/zones/Lower_Jeuno/npcs/_6t1.lua: No such file or directory
+[06/Nov] [16:19:22][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:19:23][Info] parse: 016 | 0051 0050 04 from user: Ranik
+[06/Nov] [16:19:27][Info] parse: 01A | 005B 005A 0E from user: Ranik
+[06/Nov] [16:19:27][Debug] CLIENT Ranik PERFORMING ACTION 00
+[06/Nov] [16:19:42][Info] parse: 05B | 0080 007F 0A from user: Ranik
+[06/Nov] [16:19:43][Info] parse: 00D | 0081 0080 04 from user: Ranik
+[06/Nov] [16:19:43][Debug] CZone:: Lower_Jeuno DecreaseZoneCounter <0> Ranik
+[06/Nov] [16:19:45][Warning] Unequip Occured 
+[06/Nov] [16:19:45][Warning] Unequip Occured 
+[06/Nov] [16:19:45][Info] parse: 00A | 0001 0000 2E from user: Ranik
+[06/Nov] [16:19:45][Debug] CZone:: Rolanberry_Fields IncreaseZoneCounter <1> Ranik 
+[06/Nov] [16:19:46][Info] parse: 011 | 0002 0001 04 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 00C | 0003 0002 06 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 061 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 118 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:19:47][Warning] parse: Unhandled game packet 118 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 11B | 0003 0002 04 from user: Ranik
+[06/Nov] [16:19:47][Warning] parse: Unhandled game packet 11B from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 053 | 0003 0002 44 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 01A | 0003 0002 0E from user: Ranik
+[06/Nov] [16:19:47][Debug] CLIENT Ranik PERFORMING ACTION 14
+[06/Nov] [16:19:47][Info] parse: 0E0 | 0003 0002 4C from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 00F | 0003 0002 12 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 0DB | 0003 0002 14 from user: Ranik
+[06/Nov] [16:19:47][Info] parse: 112 | 0003 0002 04 from user: Ranik
+[06/Nov] [16:19:47][Debug] parse: SmallPacket is not implemented Type<112>
+[06/Nov] [16:19:47][Info] parse: 05A | 0003 0002 02 from user: Ranik
+[06/Nov] [16:26:15][Info] parse: 01A | 03A7 03A5 0E from user: Ranik
+[06/Nov] [16:26:15][Debug] CLIENT Ranik PERFORMING ACTION 12
+[06/Nov] [16:26:19][Info] parse: 0E7 | 03B2 03B0 04 from user: Ranik
+[06/Nov] [16:26:19][Debug] Ranik has logged out. 
+[06/Nov] [16:26:20][Debug] Message: Received message 6 from message server
+[06/Nov] [16:26:20][Info] parse: 00D | 03B3 03B1 04 from user: Ranik
+[06/Nov] [16:26:20][Debug] CZone:: Rolanberry_Fields DecreaseZoneCounter <0> Ranik
