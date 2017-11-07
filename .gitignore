@@ -157,3 +157,8 @@ conf/map_darkstar.conf
 conf/search_server.conf
 conf/server_message_fr.conf
 conf/server_message.conf
+
+#extracted files
+batch/*
+dsp_dump/*
+extractor/*
