@@ -274,18 +274,13 @@ void do_final(int code)
     petutils::FreePetList();
     zoneutils::FreeZoneList();
     luautils::free();
-    ShowMessage("Made it outside luautils::free\n");
     message::close();
-    ShowMessage("Message::close\n");
     if (messageThread.joinable())
     {
         messageThread.join();
     }
-    ShowMessage("message.join()\n");
     delete CTaskMgr::getInstance();
-    ShowMessage("delete CTaskMgr::getInstance()\n");
     delete CVanaTime::getInstance();
-    ShowMessage("delete CVanaTime::getInstance()");
     Sql_Free(SqlHandle);
 
     timer_final();

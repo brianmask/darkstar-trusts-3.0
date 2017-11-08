@@ -252,7 +252,6 @@ int main (int argc, char **argv)
 			do_sockets(&rfd,next);
 		}
 	}
-    ShowMessage("runflag no longer true\n");
     do_final(EXIT_SUCCESS);
 	return 0;
 }
