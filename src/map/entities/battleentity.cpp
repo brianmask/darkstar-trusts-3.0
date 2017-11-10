@@ -115,21 +115,15 @@ bool CBattleEntity::isAsleep()
 
 void CBattleEntity::UpdateHealth()
 {
+  DSP_DEBUG_BREAK_IF(this == nullptr);
+  int32 dif = 0;
 
-    int32 dif = 0;
-	
-	
-
-	
-	//if (objtype == TYPE_PC || objtype == TYPE_MOB || ((CPetEntity*)this)->getPetType() == PETTYPE_AVATAR || ((CPetEntity*)this)->getPetType() == PETTYPE_WYVERN || ((CPetEntity*)this)->getPetType() == PETTYPE_JUG_PET ||
-	//((CPetEntity*)this)->getPetType() == PETTYPE_AUTOMATON){
+  
   if (((CPetEntity*)this)->getPetType() != PETTYPE_TRUST) {
-	  dif = (getMod(MOD_CONVMPTOHP) - getMod(MOD_CONVHPTOMP));
-	
-	
-	
-	  health.modmp = ((health.maxmp) * (100 + getMod(MOD_MPP)) / 100) + dsp_min((health.maxmp * m_modStat[MOD_FOOD_MPP] / 100), m_modStat[MOD_FOOD_MP_CAP]) + getMod(MOD_MP);
-    health.modhp = ((health.maxhp) * (100 + getMod(MOD_HPP)) / 100) + dsp_min((health.maxhp * m_modStat[MOD_FOOD_HPP] / 100), m_modStat[MOD_FOOD_HP_CAP]) + getMod(MOD_HP);
+	  dif = (m_modStat[MOD_CONVMPTOHP] - m_modStat[MOD_CONVHPTOMP]);
+
+	  health.modmp = ((health.maxmp) * (100 + m_modStat[MOD_MPP]) / 100) + dsp_min((health.maxmp * m_modStat[MOD_FOOD_MPP] / 100), m_modStat[MOD_FOOD_MP_CAP]) + m_modStat[MOD_MP];
+    health.modhp = ((health.maxhp) * (100 + m_modStat[MOD_HPP]) / 100) + dsp_min((health.maxhp * m_modStat[MOD_FOOD_HPP] / 100), m_modStat[MOD_FOOD_HP_CAP]) + m_modStat[MOD_HP];
 	
     dif = (health.modmp - 0) < dif ? (health.modmp - 0) : dif;
     dif = (health.modhp - 1) < -dif ? -(health.modhp - 1) : dif;
@@ -139,8 +133,8 @@ void CBattleEntity::UpdateHealth()
 	}
 	else //if (objtype == TYPE_PET && ((CPetEntity*)this)->getPetType() == PETTYPE_TRUST)
 	{
-    health.modmp = (health.maxmp), getMod(MOD_MP);
-    health.modhp = (health.maxhp), getMod(MOD_HP);
+    health.modmp = (health.maxmp), m_modStat[MOD_MP];
+    health.modhp = (health.maxhp), m_modStat[MOD_HP];
 	}
 
 
