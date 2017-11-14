@@ -1,4 +1,4 @@
-﻿/*
+/*
 ===========================================================================
 
 Copyright (c) 2010-2015 Darkstar Dev Teams
@@ -332,7 +332,7 @@ void SmallPacket0x00C(map_session_data_t* session, CCharEntity* PChar, CBasicPac
     // respawn any pets from last zone
     if (PChar->petZoningInfo.respawnPet == true)
     {
-        // only repawn pet in valid zones and al zahbi (for beseiged)
+        // only respawn pet in valid zones and al zahbi (for beseiged)
         if (PChar->loc.zone->CanUseMisc(MISC_PET) == true || PChar->loc.zone->GetID() == 48)
         {
             switch (PChar->petZoningInfo.petType)
@@ -437,7 +437,7 @@ void SmallPacket0x00D(map_session_data_t* session, CCharEntity* PChar, CBasicPac
     PChar->status = STATUS_DISAPPEAR;
 
     //PChar->PBattleAI->Reset();
-	PChar->resetPetZoningInfo();
+	  PChar->resetPetZoningInfo();
     return;
 }
 
@@ -2158,7 +2158,7 @@ void SmallPacket0x04E(map_session_data_t* session, CCharEntity* PChar, CBasicPac
     // 0x0A - Retrieve List of Items Sold By Player
     // 0x0B - Proof Of Purchase
     // 0x0E - Purchasing Items
-    // 0x0С - Cancel Sale
+    // 0x0? - Cancel Sale
     // 0x0D - Update Sale List By Player
 
     switch (action)
@@ -3507,7 +3507,7 @@ void SmallPacket0x083(map_session_data_t* session, CCharEntity* PChar, CBasicPac
     }
 
     uint16 itemID = PChar->Container->getItemID(shopSlotID);
-    uint32 price = PChar->Container->getQuantity(shopSlotID); // здесь мы сохранили стоимость предмета
+    uint32 price = PChar->Container->getQuantity(shopSlotID); // ????? ?? ????????? ????????? ????????
 
     CItem* PItem = itemutils::GetItemPointer(itemID);
 
