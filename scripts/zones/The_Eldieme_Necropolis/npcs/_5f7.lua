@@ -22,7 +22,7 @@ end;
 
 function onTrigger(player,npc)
     if (npc:getAnimation() == 9) then
-        if (player:hasKeyItem(MAGICKED_ASTROLABE)) then
+        if (player:hasKeyItem(MAGICKED_ASTROLABE) || player:hasKeyItem(PORTAL_CHARM)) then
             npc:openDoor(8);
         else
             player:messageSpecial(SOLID_STONE);
