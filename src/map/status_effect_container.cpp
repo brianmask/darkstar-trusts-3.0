@@ -427,7 +427,7 @@ void CStatusEffectContainer::RemoveStatusEffect(uint32 id, bool silent)
     luautils::OnEffectLose(m_POwner, PStatusEffect);
 
     m_POwner->delModifiers(&PStatusEffect->modList);
-    m_POwner->UpdateHealth();
+    //m_POwner->UpdateHealth();
 
     if (m_POwner->objtype == TYPE_PC)
     {

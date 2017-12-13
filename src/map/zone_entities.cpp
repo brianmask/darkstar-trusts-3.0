@@ -1,4 +1,4 @@
-﻿/*
+/*
 ===========================================================================
 
 Copyright (c) 2010-2015 Darkstar Dev Teams
@@ -257,8 +257,31 @@ void CZoneEntities::DecreaseZoneCounter(CCharEntity* PChar)
 				}
 			}
 			PChar->PPet = nullptr;
-		}
-	}
+		 }
+   }
+   if (PChar->PAlly.size() > 0)
+   {
+      for (int i = 0; i < PChar->PAlly.size(); i++) 
+      {
+         PChar->PAlly[i]->PBattleAI->SetCurrentAction(ACTION_NONE); 
+         for (EntityList_t::const_iterator it = m_charList.begin(); it != m_charList.end(); ++it)
+			   {
+			   	//inform other players of the pets removal
+			   	CCharEntity* PCurrentChar = (CCharEntity*)it->second;
+			   	SpawnIDList_t::iterator ALLY = PCurrentChar->SpawnPETList.find(PChar->PAlly[i]->id);
+
+			   	if (ALLY != PCurrentChar->SpawnPETList.end())
+			   	{
+			   		PCurrentChar->SpawnPETList.erase(ALLY);
+			   		PCurrentChar->pushPacket(new CEntityUpdatePacket(PChar->PAlly[i], ENTITY_DESPAWN, UPDATE_NONE));
+            DeletePET(PChar->PAlly[i]);
+			   	}
+		   	}
+        //m_petList.erase(m_petList.find(PChar->PAlly[i]->id));   
+      }
+      PChar->PAlly.clear();
+   }
+	
 
 	//remove bcnm status
 	if (m_zone->m_BattlefieldHandler != nullptr && PChar->StatusEffectContainer->HasStatusEffect(EFFECT_BATTLEFIELD))
@@ -348,7 +371,7 @@ void CZoneEntities::DecreaseZoneCounter(CCharEntity* PChar)
         }
     }
 
-	// TODO: могут возникать проблемы с переходом между одной и той же зоной (zone == prevzone)
+	// TODO: ????? ????????? ???????? ? ????????? ????? ????? ? ??? ?? ????? (zone == prevzone)
 
 	m_charList.erase(PChar->targid);
 
@@ -417,7 +440,7 @@ void CZoneEntities::SpawnMOBs(CCharEntity* PChar)
 			if (PChar->isDead() || PChar->nameflags.flags & FLAG_GM || PCurrentMob->PMaster != nullptr)
 				continue;
 
-			// проверка ночного/дневного сна монстров уже учтена в проверке CurrentAction, т.к. во сне монстры не ходят ^^
+			// ???????? ???????/???????? ??? ???????? ??? ?????? ? ???????? CurrentAction, ?.?. ?? ??? ??????? ?? ????? ^^
 
 			uint16 expGain = (uint16)charutils::GetRealExp(PChar->GetMLevel(), PCurrentMob->GetMLevel());
 

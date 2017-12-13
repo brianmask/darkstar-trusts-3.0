@@ -1070,8 +1070,8 @@ namespace petutils
 			partySize += 1;
         } 
         
-		//Can't summon more than 4 Trusts
-        if (partySize > 7){
+		//Can't summon more than 5 Trusts
+        if (partySize > 9){
             return;
         }
 		

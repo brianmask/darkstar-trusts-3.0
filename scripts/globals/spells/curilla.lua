@@ -20,6 +20,10 @@ function onMagicCastingCheck(caster,target,spell)
 	elseif (bf ~= nil) then
     if ((bf:getBcnmID() > 1377) and (bf:getBcnmID() < 1387)) then
 	  caster:PrintToPlayer("Curilla is unavailable for this fight.  Please try another Trust.",0xD);	
+    elseif (not caster:isUniqueAlly(79)) then
+       	caster:PrintToPlayer("Curilla is already summoned.",0xD);
+    else
+	    return 0;
   end
 	elseif(not caster:canUsePet()) then
 		return MSGBASIC_CANT_BE_USED_IN_AREA;
